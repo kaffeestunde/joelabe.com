@@ -1,0 +1,28 @@
+.emotion {
+    color: #aaa;
+    font-size: 4rem;
+    letter-spacing: .8rem;
+}
+
+header {
+    padding-bottom: 2rem;
+}
+
+*[data-person='jeannie'] {
+    font-family: Helvetica, sans-serif
+}
+
+*[data-person='tech'] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+cite {
+    border: 1px solid #666;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding: 2.5rem 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style: normal;
+    margin: 2rem 0;
+}
