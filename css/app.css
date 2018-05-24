@@ -25,11 +25,12 @@ section {
 
 *[data-person='lucien'] {
     font-family: Open Sans;
-    letter-spacing: .5rem;
+    letter-spacing: .4rem;
+    padding-bottom: 2rem;
 }
 
 .emotion[data-person='lucien'] {
     font-family: Open Sans;
-    letter-spacing: 1.2rem;
+    letter-spacing: 1.5rem;
 }
 
