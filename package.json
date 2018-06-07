@@ -1,0 +1,40 @@
+{
+  "name": "joelabe.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaffeestunde/joelabe.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaffeestunde/joelabe.com/issues"
+  },
+  "homepage": "https://github.com/kaffeestunde/joelabe.com#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "foundation-sites": "^6.4.4-rc1",
+    "jquery": "^3.3.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "stimulus": "^1.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+*[data-controller="slider"] .slide,
+*[data-controller="slider"] .frame {
+    display: none;
+}
+
+*[data-controller="slider"] .slide.slide--current,
+*[data-controller="slider"] .frame.frame--current {
+    display: block;
+}
+
+:disabled {
+    opacity: .4;
+}
+
+:disabled:hover {
+    cursor: not-allowed;
+}

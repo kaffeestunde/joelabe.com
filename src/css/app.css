@@ -1,7 +1,23 @@
+.hide {display: none;}
+
 .emotion {
     color: #aaa;
     font-size: 4rem;
     letter-spacing: .8rem;
+}
+
+.cell.break {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.frame .img-container {
+    border: 3px solid gray;
+}
+
+.frame .img-container img {
+    cursor: move;
 }
 
 header {
@@ -10,6 +26,10 @@ header {
 
 section {
     padding-bottom: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .chat * {
@@ -29,6 +49,10 @@ section {
     padding-bottom: 2rem;
 }
 
+*[data-person='dean'],
+*[data-person='dean'] * {
+    font-family: 'Times New Roman', Times, serif;
+}
 .emotion[data-person='lucien'] {
     font-family: Open Sans;
     letter-spacing: 1.5rem;
